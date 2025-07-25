@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between cards */
+  padding: 20px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
