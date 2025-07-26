@@ -10,7 +10,7 @@ export default function PizzaCard({ pName, pIng, pAva, pImg }) {
       }`}
     >
       <>
-        <img className="pizzaImg" alt="Margherita" src={pImg}></img>
+        <img className="pizzaImg" alt={pName} src={pImg}></img>
       </>
       <div className="pizzaInfo">
         <div>

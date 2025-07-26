@@ -1,6 +1,6 @@
 .pizzaImg {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 190px;
   border-radius: 10px 0px 0 10px;
 }
 img {
@@ -10,11 +10,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 380px;
-  height: 150px;
+  width: 410px;
+  height: 190px;
   gap: 10px;
-  background-color: rgb(251, 250, 178);
+  background-color: rgb(242, 241, 155);
   border-radius: 10px;
+  border: solid rgb(151, 151, 151) 0.2px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .card-continer:hover {
@@ -29,7 +30,7 @@ img {
   text-align: left;
   flex-wrap: wrap;
   width: 250px;
-  height: 140px;
+  height: 190px;
   gap: 10px;
   padding: 1px;
   margin-top: 10px;
@@ -76,5 +77,5 @@ img {
 .soldout {
   color: rgb(252, 252, 252) !important;
   filter: brightness(80%) !important;
-  background-color: rgb(132, 131, 131); /* makes images black */
+  background-color: rgb(186, 186, 186); /* makes images black */
 }
