@@ -74,6 +74,7 @@ img {
   border-radius: 8px;
 }
 .soldout {
-  color: rgb(255, 6, 6) !important;
-  filter: brightness(70%) !important; /* makes images black */
+  color: rgb(252, 252, 252) !important;
+  filter: brightness(80%) !important;
+  background-color: rgb(132, 131, 131); /* makes images black */
 }

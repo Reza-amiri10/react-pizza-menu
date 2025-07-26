@@ -4,7 +4,7 @@ const PizzaList = [
     name: "Margherita",
     ingredients: "Tomato Sauce, Mozzarella, Basil, Olive Oil",
     availableQuantity: 0,
-    image: "images/Margherita.jpg",
+    image: "images/margherita.jpg",
   },
   {
     id: 2,
